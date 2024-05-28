@@ -29,34 +29,71 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
-            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Login = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Username = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Password = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // elementHost1
+            // Login
             // 
-            this.elementHost1.BackColor = System.Drawing.Color.MintCream;
-            this.elementHost1.BackColorTransparent = true;
-            this.elementHost1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.elementHost1.Location = new System.Drawing.Point(272, 48);
-            this.elementHost1.Name = "elementHost1";
-            this.elementHost1.Size = new System.Drawing.Size(252, 325);
-            this.elementHost1.TabIndex = 0;
-            this.elementHost1.Text = "back";
-            this.elementHost1.ChildChanged += new System.EventHandler<System.Windows.Forms.Integration.ChildChangedEventArgs>(this.elementHost1_ChildChanged);
-            this.elementHost1.Child = null;
+            this.Login.AutoSize = true;
+            this.Login.BackColor = System.Drawing.Color.Transparent;
+            this.Login.Font = new System.Drawing.Font("Futura BdCn BT", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Login.Location = new System.Drawing.Point(353, 77);
+            this.Login.Name = "Login";
+            this.Login.Size = new System.Drawing.Size(66, 32);
+            this.Login.TabIndex = 0;
+            this.Login.Text = "Login";
             // 
-            // label1
+            // textBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Futura BdCn BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(441, 79);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 25);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Login";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.textBox1.Location = new System.Drawing.Point(276, 151);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(236, 20);
+            this.textBox1.TabIndex = 1;
+            // 
+            // Username
+            // 
+            this.Username.AutoSize = true;
+            this.Username.BackColor = System.Drawing.Color.Transparent;
+            this.Username.Font = new System.Drawing.Font("Futura Bk BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Username.Location = new System.Drawing.Point(273, 135);
+            this.Username.Name = "Username";
+            this.Username.Size = new System.Drawing.Size(56, 14);
+            this.Username.TabIndex = 2;
+            this.Username.Text = "Username";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(276, 201);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(236, 20);
+            this.textBox2.TabIndex = 3;
+            // 
+            // Password
+            // 
+            this.Password.AutoSize = true;
+            this.Password.BackColor = System.Drawing.Color.Transparent;
+            this.Password.Font = new System.Drawing.Font("Futura Bk BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Password.Location = new System.Drawing.Point(273, 184);
+            this.Password.Name = "Password";
+            this.Password.Size = new System.Drawing.Size(51, 14);
+            this.Password.TabIndex = 4;
+            this.Password.Text = "Password";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Futura BdCn BT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(346, 252);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(83, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "LOGIN";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // FormLogin
             // 
@@ -64,8 +101,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(759, 429);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.elementHost1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Password);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.Username);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Login);
             this.Name = "FormLogin";
             this.Text = "FormLogin";
             this.Load += new System.EventHandler(this.FormLogin_Load);
@@ -76,7 +117,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Integration.ElementHost elementHost1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Login;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label Username;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label Password;
+        private System.Windows.Forms.Button button1;
     }
 }

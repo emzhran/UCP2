@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace UCP2
 {
-    public partial class FormBareng : Form
+    public partial class FormBarang : Form
     {
-        public FormBareng()
+        public FormBarang()
         {
             InitializeComponent();
-        }
-
-        private void FormBareng_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

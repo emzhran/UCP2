@@ -52,12 +52,6 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormAdmin.Designer.cs">
-      <DependentUpon>FormAdmin.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormBarang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,9 +102,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormAdmin.resx">
-      <DependentUpon>FormAdmin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormBarang.resx">
       <DependentUpon>FormBarang.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +134,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -156,6 +148,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pikaso_texttoimage_35mm-film-photography-Vast-cosmic-expanse-with-twi.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

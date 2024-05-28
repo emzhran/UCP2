@@ -16,5 +16,10 @@ namespace UCP2
         {
             InitializeComponent();
         }
+
+        private void FormGudang_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

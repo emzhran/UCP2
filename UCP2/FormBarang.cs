@@ -21,5 +21,10 @@ namespace UCP2
         {
 
         }
+
+        private void FormBarang_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

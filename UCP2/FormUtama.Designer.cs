@@ -125,10 +125,11 @@
             // button7
             // 
             this.button7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button7.Location = new System.Drawing.Point(0, 401);
+            this.button7.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(0, 395);
             this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(759, 28);
+            this.button7.Size = new System.Drawing.Size(759, 34);
             this.button7.TabIndex = 6;
             this.button7.Text = "Keluar";
             this.button7.UseVisualStyleBackColor = true;
@@ -140,6 +141,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Peach More", 48.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Snow;
+            this.label1.Image = global::UCP2.Properties.Resources.pikaso_texttoimage_35mm_film_photography_Vast_cosmic_expanse_with_twi;
             this.label1.Location = new System.Drawing.Point(-2, -1);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(762, 103);

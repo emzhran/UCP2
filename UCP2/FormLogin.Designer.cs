@@ -41,11 +41,11 @@
             // 
             this.Login.AutoSize = true;
             this.Login.BackColor = System.Drawing.Color.Transparent;
-            this.Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Login.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Login.Location = new System.Drawing.Point(353, 77);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(80, 31);
+            this.Login.Size = new System.Drawing.Size(77, 31);
             this.Login.TabIndex = 0;
             this.Login.Text = "Login";
             // 
@@ -89,7 +89,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(346, 252);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(83, 23);

@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="FormBarang.cs">
       <SubType>Form</SubType>
@@ -58,13 +58,58 @@
     <Compile Include="FormBarang.Designer.cs">
       <DependentUpon>FormBarang.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDistributor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDistributor.Designer.cs">
+      <DependentUpon>FormDistributor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGudang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGudang.Designer.cs">
+      <DependentUpon>FormGudang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKaryawan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKaryawan.Designer.cs">
+      <DependentUpon>FormKaryawan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPangkalan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPangkalan.Designer.cs">
+      <DependentUpon>FormPangkalan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransaksi.Designer.cs">
+      <DependentUpon>FormTransaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUtama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUtama.Designer.cs">
+      <DependentUpon>FormUtama.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBarang.resx">
       <DependentUpon>FormBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

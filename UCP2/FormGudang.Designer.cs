@@ -1,6 +1,6 @@
 ﻿namespace UCP2
 {
-    partial class FormBarang
+    partial class FormGudang
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // FormBarang
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "FormBarang";
-            this.Text = "FormBarang";
-            this.ResumeLayout(false);
-
+            this.Text = "FormGudang";
         }
 
         #endregion

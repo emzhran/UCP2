@@ -15,6 +15,9 @@ namespace UCP2
         public FormUtama()
         {
             InitializeComponent();
+            FormLogin loginTutup = new FormLogin();
+
+            loginTutup.Close();
         }
 
     }

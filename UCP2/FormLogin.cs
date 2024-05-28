@@ -36,5 +36,15 @@ namespace UCP2
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormUtama formUtama = new FormUtama();
+
+            
+            formUtama.Show();
+            
+            this.Hide();
+        }
     }
 }

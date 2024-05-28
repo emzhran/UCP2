@@ -114,8 +114,23 @@
     <EmbeddedResource Include="FormBarang.resx">
       <DependentUpon>FormBarang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDistributor.resx">
+      <DependentUpon>FormDistributor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGudang.resx">
+      <DependentUpon>FormGudang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKaryawan.resx">
+      <DependentUpon>FormKaryawan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPangkalan.resx">
+      <DependentUpon>FormPangkalan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransaksi.resx">
+      <DependentUpon>FormTransaksi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormUtama.resx">
       <DependentUpon>FormUtama.cs</DependentUpon>

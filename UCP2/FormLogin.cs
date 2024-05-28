@@ -16,5 +16,20 @@ namespace UCP2
         {
             InitializeComponent();
         }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void elementHost1_ChildChanged(object sender, System.Windows.Forms.Integration.ChildChangedEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

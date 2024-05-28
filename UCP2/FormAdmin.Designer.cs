@@ -28,31 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(295, 140);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(229, 20);
-            this.textBox1.TabIndex = 0;
             // 
             // FormAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(806, 458);
-            this.Controls.Add(this.textBox1);
             this.Name = "FormAdmin";
             this.Text = "FormAdmin";
+            this.Load += new System.EventHandler(this.FormAdmin_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
